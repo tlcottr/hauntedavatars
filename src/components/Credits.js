@@ -2,13 +2,19 @@ const Credits = () => {
   return (
     <div className="text-gray-500 text-sm">
       Haunted by{" "}
-      <span className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer border-b">
+      <a
+        href="https://www.linkedin.com/in/meredyth-staunch/"
+        className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer border-b"
+      >
         Mere Staunch
-      </span>{" "}
+      </a>{" "}
       &{" "}
-      <span className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer border-b">
+      <a
+        href="https://www.linkedin.com/in/taylor-cottrell-331389119/"
+        className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer border-b"
+      >
         Taylor Cottrell
-      </span>
+      </a>
     </div>
   );
 };

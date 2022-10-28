@@ -17,6 +17,7 @@ const accessoryImages = [
   "crownAccessory.png",
   "beanieAccessory.png",
   "flowerAccessory.png",
+  "hellAccessory.png",
 ];
 const backgroundImages = [
   "blackBackground.png",
@@ -25,6 +26,9 @@ const backgroundImages = [
   "purpleBackground.png",
   "redBackground.png",
   "blueBackground.png",
+  "royalBackground.png",
+  "burntBackground.png",
+  "navyBackground.png",
 ];
 const headImages = [
   "ghostHead.png",
@@ -33,6 +37,8 @@ const headImages = [
   "frankensteinHead.png",
   "alienHead.png",
   "skeletonHead.png",
+  "vampireHead.png",
+  "devilHead.png",
 ];
 const faceImages = [
   "ghostFace.png",
@@ -41,6 +47,8 @@ const faceImages = [
   "frankensteinFace.png",
   "alienFace.png",
   "skeletonFace.png",
+  "vampireFace.png",
+  "devilFace.png",
 ];
 
 const randomize = (max) => {
@@ -52,10 +60,10 @@ const randomize = (max) => {
  */
 const randomImageGenerator = () => {
   const avatarParts = {};
-  avatarParts["background"] = background[backgroundImages[randomize(6)]];
-  avatarParts["head"] = head[headImages[randomize(6)]];
-  avatarParts["face"] = face[faceImages[randomize(6)]];
-  avatarParts["accessory"] = accessory[accessoryImages[randomize(7)]];
+  avatarParts["background"] = background[backgroundImages[randomize(9)]];
+  avatarParts["head"] = head[headImages[randomize(8)]];
+  avatarParts["face"] = face[faceImages[randomize(8)]];
+  avatarParts["accessory"] = accessory[accessoryImages[randomize(8)]];
   return avatarParts;
 };
 
