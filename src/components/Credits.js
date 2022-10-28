@@ -1,7 +1,7 @@
 const Credits = () => {
   return (
     <div className="text-gray-500">
-      By{" "}
+      Haunted by{" "}
       <span className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer">
         Mere Staunch
       </span>{" "}
