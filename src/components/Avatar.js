@@ -136,7 +136,7 @@ function Avatar(props) {
         <div className="flex flex-col h-full w-full items-center justify-center relative">
           <img id="avatar" alt="avatar" className="w-full h-full" />
 
-          <div className="m-5 absolute bottom-0 right-0">
+          <div className="m-5 absolute bottom-0 xl:right-0 lg:right-0">
             <button
               onClick={getRandomImage}
               className="bg-white hover:bg-black hover:text-white text-sm text-black py-1 px-5 rounded-full transition-opacity duration-100 mx-1"
