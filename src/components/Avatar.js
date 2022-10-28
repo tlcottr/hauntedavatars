@@ -52,9 +52,9 @@ function Avatar(props) {
   return (
     <>
       <div className="flex flex-row items-center justify-center mx-auto h-screen">
-        <div className="flex flex-col bg-white h-full w-full p-5">
+        <div className="flex flex-col bg-white h-full w-full p-8">
           <Logo />
-          <p className="text-md font-Helvetica h-full flex items-center flex-col justify-center max-w-2xl">
+          <p className="text-sm font-Helvetica h-full flex items-center flex-col justify-center max-w-xl">
             <span className="">
               There’s nothing small about being haunted on Halloween. The ghosts
               come out, the zombies resurface, the night is only lit up by the
@@ -67,21 +67,38 @@ function Avatar(props) {
               Avatars (that’s us, hi!) live for the ghosts, ghouls, and goblins,
               and want to give you the opportunity to play a cute trick on your
               co-workers and friends by changing your{" "}
-              <span className="border-b border-gray-300 hover:border-[#464EB8] hover:text-[#464EB8] cursor-pointer">
+              <a
+                href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fgo&state=eyJpZCI6ImI0MDY3MmU4LTIxMjEtNDAxZC1iMzgwLTdkYzFlN2ZkOTkyZiIsInRzIjoxNjY2OTc4NTU2LCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=51ac5832-d32e-4937-852b-0216b5a90109&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.3.4&client-request-id=914b68f4-8f13-4dcf-9d2f-2611d4ea0df5&response_mode=fragment"
+                className="border-b border-gray-300 hover:border-[#464EB8] hover:text-[#464EB8] cursor-pointer"
+                target="_blank"
+              >
                 Teams
-              </span>
+              </a>
               ,{" "}
-              <span className="border-b border-gray-300 hover:border-[#E01E5A] hover:text-[#E01E5A] cursor-pointer">
+              <a
+                href="https://slack.com/intl/en-in/get-started#/createnew"
+                className="border-b border-gray-300 hover:border-[#2EB67D] hover:text-[#2EB67D] cursor-pointer"
+                target="_blank"
+              >
                 Slack
-              </span>
+              </a>
               ,{" "}
-              <span className="border-b border-gray-300 hover:border-[#C13584] hover:text-[#C13584] cursor-pointer">
+              <a
+                href="https://www.instagram.com/accounts/login/"
+                className="border-b border-gray-300 hover:border-[#C13584] hover:text-[#C13584] cursor-pointer"
+                target="_blank"
+              >
                 Insta
-              </span>
+              </a>
               ,{" "}
-              <span className="border-b border-gray-300 hover:border-[#25F4EE] hover:text-[#25F4EE] cursor-pointer">
+              <a
+                href="https://www.tiktok.com/en/"
+                className="border-b border-gray-300 hover:border-[#25F4EE] hover:text-[#25F4EE] cursor-pointer"
+                target="_blank"
+              >
+                {" "}
                 TikTok
-              </span>
+              </a>
               , or whatever profile pic to our one-of-a-kind Halloween avatar.
               <br></br>
               <br></br>
@@ -92,7 +109,7 @@ function Avatar(props) {
               combinations. All you have to do is select the{" "}
               <button
                 onClick={getRandomImage}
-                className="bg-gray-200 rounded-full px-2 py-1 text-sm hover:bg-black hover:text-white cursor-pointer"
+                className="bg-gray-200 rounded-full px-2 py-1 text-xs hover:bg-black hover:text-white cursor-pointer"
               >
                 Random
               </button>{" "}
@@ -101,7 +118,7 @@ function Avatar(props) {
               Avatar, select{" "}
               <button
                 onClick={downloadImage}
-                className="bg-gray-200 rounded-full px-2 py-1 text-sm hover:bg-black hover:text-white cursor-pointer"
+                className="bg-gray-200 rounded-full px-2 py-1 text-xs hover:bg-black hover:text-white cursor-pointer"
               >
                 Download
               </button>{" "}
