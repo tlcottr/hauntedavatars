@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b7c248dc.css",
-    "main.js": "/static/js/main.23768c8d.js",
+    "main.js": "/static/js/main.8255781b.js",
     "static/js/787.c4666f85.chunk.js": "/static/js/787.c4666f85.chunk.js",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/Helvetica-Bold.ttf": "/static/media/Helvetica-Bold.ed57aca7292971d8548c.ttf",
@@ -22,6 +22,7 @@
     "static/media/skeletonHead.png": "/static/media/skeletonHead.d2c38b3a52b8a0019a6d.png",
     "static/media/ghostHead.png": "/static/media/ghostHead.a77802259b315dc09bba.png",
     "static/media/frankensteinHead.png": "/static/media/frankensteinHead.8c8f812bb6e57e982a01.png",
+    "static/media/alienHead 3.png": "/static/media/alienHead 3.e91e9ee664bfed78853a.png",
     "static/media/alienHead.png": "/static/media/alienHead.e91e9ee664bfed78853a.png",
     "static/media/cowboyHatAccessory.png": "/static/media/cowboyHatAccessory.d362fdd99c9f0669527c.png",
     "static/media/hellAccessory.png": "/static/media/hellAccessory.2d7ee16a8b20375a98a6.png",
@@ -43,11 +44,11 @@
     "static/media/noneAccessory.png": "/static/media/noneAccessory.0695ffe415f044a9c2a6.png",
     "index.html": "/index.html",
     "main.b7c248dc.css.map": "/static/css/main.b7c248dc.css.map",
-    "main.23768c8d.js.map": "/static/js/main.23768c8d.js.map",
+    "main.8255781b.js.map": "/static/js/main.8255781b.js.map",
     "787.c4666f85.chunk.js.map": "/static/js/787.c4666f85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7c248dc.css",
-    "static/js/main.23768c8d.js"
+    "static/js/main.8255781b.js"
   ]
 }

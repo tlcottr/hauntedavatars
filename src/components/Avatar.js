@@ -56,11 +56,6 @@ function Avatar(props) {
           <Logo />
           <p className="text-sm font-Helvetica h-full flex items-center flex-col justify-center max-w-xl sm:py-2 xxs:py-2 xs:py-2 md:py-2">
             <span className="">
-              There’s nothing small about being haunted on Halloween. The ghosts
-              come out, the zombies resurface, the night is only lit up by the
-              carved faces of perfectly plump pumpkins.
-              <br></br>
-              <br></br>
               Boo! You’ve officially been haunted by the world of Halloween
               avatars. Now, don’t be scared. We’re actually here to give your
               profile pic a spooky facelift. Literally. The creators of Haunted
