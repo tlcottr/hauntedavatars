@@ -8,8 +8,8 @@ module.exports = {
         HelveticaBold: ["helvetica-bold", "sans-serif"],
       },
       screens: {
-        xxs: "390px",
-        // => @media (min-width: 400px) { ... }
+        xxs: "350px",
+        // => @media (min-width: 350px) { ... }
 
         xs: "500px",
         // => @media (min-width: 500px) { ... }
