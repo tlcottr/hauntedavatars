@@ -5,6 +5,7 @@ const Credits = () => {
       <a
         href="https://www.linkedin.com/in/meredyth-staunch/"
         className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer border-b"
+        target="_blank"
       >
         Mere Staunch
       </a>{" "}
@@ -12,6 +13,7 @@ const Credits = () => {
       <a
         href="https://www.linkedin.com/in/taylor-cottrell-331389119/"
         className="text-sm hover:text-black text-gray-500 font-Helvetica cursor-pointer border-b"
+        target="_blank"
       >
         Taylor Cottrell
       </a>
