@@ -51,10 +51,10 @@ function Avatar(props) {
 
   return (
     <>
-      <div className="flex flex-row items-center justify-center mx-auto h-screen">
+      <div className="flex lg:flex-row xl:flex-row md:flex-col-reverse sm:flex-col-reverse xxs:flex-col-reverse xs:flex-col-reverse items-center lg:justify-center xl:justify-center mx-auto xl:h-screen lg:h-screen md:h-full sm:h-full xs:h-full xxs:h-full">
         <div className="flex flex-col bg-white h-full w-full p-8">
           <Logo />
-          <p className="text-sm font-Helvetica h-full flex items-center flex-col justify-center max-w-xl">
+          <p className="text-sm font-Helvetica h-full flex items-center flex-col justify-center max-w-xl sm:py-2 xxs:py-2 xs:py-2 md:py-2">
             <span className="">
               There’s nothing small about being haunted on Halloween. The ghosts
               come out, the zombies resurface, the night is only lit up by the
